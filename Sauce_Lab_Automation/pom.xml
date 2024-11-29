@@ -3,6 +3,29 @@
 	<groupId>Sauce_Lab_Automation</groupId>
 	<artifactId>Sauce_Lab_Automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.11.0</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.5.2</version>
+				<configuration>
+					<suiteXmlFiles>
+							<suiteXmlFile>/Users/honey/git/repository/Sauce_Lab_Automation/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+
+				</configuration>
+			</plugin>
+
+
+		</plugins>
+	</build>
 
 	<dependencies>
 
