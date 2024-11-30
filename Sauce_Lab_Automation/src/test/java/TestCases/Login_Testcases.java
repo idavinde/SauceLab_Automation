@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import Pages.HamburgerMenu;
 import Pages.Login_Page;
 import Pages.Product_Page;
 import Utility.ReadConfig;
@@ -42,7 +43,7 @@ public class Login_Testcases extends BrowserLaunch {
 		loginPage.clickLogin();
 	}
 
-	@Test(priority = 6, enabled = true, groups = "E2E")
+	@Test(priority=6)
 	public void validLoginDetail() throws IOException, InterruptedException {
 
 		login(readConfig.getUsername(), readConfig.getPassword(), readConfig.getValid(), readConfig.getValid());
@@ -51,7 +52,7 @@ public class Login_Testcases extends BrowserLaunch {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority=1)
 	public void invalidUserAndPass() throws IOException {
 
 		login(readConfig.getInvalidUser(), readConfig.getInvalidPass(), readConfig.getInValid(), readConfig.getInValid());
@@ -60,7 +61,7 @@ public class Login_Testcases extends BrowserLaunch {
 
 	}
 
-	@Test(priority = 2, enabled = true)
+	@Test(priority=2)
 	public void blankPassword() throws IOException {
 
 		login(readConfig.getUsername(), readConfig.getBlankTextFeild(), readConfig.getValid(), readConfig.getBlank());
@@ -69,7 +70,7 @@ public class Login_Testcases extends BrowserLaunch {
 
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority=3)
 	public void blankUsername() throws IOException {
 
 		login(readConfig.getBlankTextFeild(), readConfig.getPassword(), readConfig.getBlank(), readConfig.getValid());
@@ -78,7 +79,7 @@ public class Login_Testcases extends BrowserLaunch {
 
 	}
 
-	@Test(priority = 4, enabled = true)
+	@Test(priority=4)
 	public void blankUserAndPass() throws IOException {
 
 		login(readConfig.getBlankTextFeild(), readConfig.getBlankTextFeild(), readConfig.getBlank(), readConfig.getBlank());
@@ -87,7 +88,7 @@ public class Login_Testcases extends BrowserLaunch {
 
 	}
 
-	@Test(priority = 5)
+	@Test(priority=5)
 	public void lockedUser() throws IOException {
 
 		login(readConfig.getLockedUsername(), readConfig.getPassword(), readConfig.getlocked(), readConfig.getValid());
@@ -99,7 +100,7 @@ public class Login_Testcases extends BrowserLaunch {
 
 	}
 	
-	@Test
+	@Test(priority=7)
 	public void problemUser() {
 		
 		login(readConfig.getProblemUsername(), readConfig.getPassword(), readConfig.getProblemUser(), readConfig.getValid());
@@ -122,6 +123,11 @@ public class Login_Testcases extends BrowserLaunch {
 				loginPage.clickCancel();
 			} else {
 				logger.info("SucessFully Login");
+				logger.info("Click on Hamburger");
+				new HamburgerMenu(driver).clickHamburgerIcon();
+
+				logger.info("Click one Logout button");
+				new HamburgerMenu(driver).clickLogout();
 			}
 		} catch (NoSuchElementException e) {
 
