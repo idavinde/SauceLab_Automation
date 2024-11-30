@@ -1438,3 +1438,46 @@
 2024-11-25 08:59:11,491 - SauceLab -INFO - Enter Postal Code
 2024-11-25 08:59:11,974 - SauceLab -INFO - Click on Hamburger
 2024-11-25 08:59:12,206 - SauceLab -INFO - Click one Logout button
+2024-11-29 18:51:51,371 - SauceLab -INFO - ----------Validating Problem UserName and "Valid" Password -----------
+2024-11-29 18:51:51,380 - SauceLab -INFO - Enter Problem UserName
+2024-11-29 18:51:52,475 - SauceLab -INFO - Enter "Valid" Password
+2024-11-29 18:51:52,843 - SauceLab -INFO - Click Login Button
+2024-11-29 18:51:54,189 - SauceLab -INFO - ----------- Validate Item Name from dropbox Z to A-----------------
+2024-11-29 18:51:54,190 - SauceLab -INFO - Select the Z to A Item Name from dropbox
+2024-11-29 18:51:54,467 - SauceLab -INFO - Get all Item Name
+2024-11-29 18:51:55,432 - SauceLab -INFO - Click on Hamburger
+2024-11-29 18:51:55,753 - SauceLab -INFO - Click one Logout button
+2024-11-29 18:51:57,356 - SauceLab -INFO - ----------Validating Problem UserName and "Valid" Password -----------
+2024-11-29 18:51:57,357 - SauceLab -INFO - Enter Problem UserName
+2024-11-29 18:51:57,533 - SauceLab -INFO - Enter "Valid" Password
+2024-11-29 18:51:57,610 - SauceLab -INFO - Click Login Button
+2024-11-29 18:51:57,873 - SauceLab -INFO - ----------- Validate All Item Name and Price =-----------------
+2024-11-29 18:51:58,701 - SauceLab -INFO - Click on Hamburger
+2024-11-29 18:51:58,832 - SauceLab -INFO - Click one Logout button
+2024-11-29 18:51:59,211 - SauceLab -INFO - ----------Validating Problem UserName and "Valid" Password -----------
+2024-11-29 18:51:59,213 - SauceLab -INFO - Enter Problem UserName
+2024-11-29 18:51:59,374 - SauceLab -INFO - Enter "Valid" Password
+2024-11-29 18:51:59,433 - SauceLab -INFO - Click Login Button
+2024-11-29 18:51:59,571 - SauceLab -INFO - Add to cart 2 Items
+2024-11-29 18:52:00,471 - SauceLab -INFO - Click on Hamburger
+2024-11-29 18:52:00,515 - SauceLab -INFO - Click one Logout button
+2024-11-29 18:52:01,313 - SauceLab -INFO - ----------Validating Problem UserName and "Valid" Password -----------
+2024-11-29 18:52:01,314 - SauceLab -INFO - Enter Problem UserName
+2024-11-29 18:52:01,429 - SauceLab -INFO - Enter "Valid" Password
+2024-11-29 18:52:01,481 - SauceLab -INFO - Click Login Button
+2024-11-29 18:52:01,702 - SauceLab -INFO - ---------- Add to Cart 2 item-------------
+2024-11-29 18:52:01,702 - SauceLab -INFO - Add to cart 2 Items
+2024-11-29 18:52:01,968 - SauceLab -INFO - click on shopping cart icon
+2024-11-29 18:52:02,299 - SauceLab -INFO - Enter First Name
+2024-11-29 18:52:02,749 - SauceLab -INFO - Enter Last Name
+2024-11-29 18:52:02,899 - SauceLab -INFO - Enter Postal Code
+2024-11-29 18:52:03,349 - SauceLab -INFO - Click on Hamburger
+2024-11-29 18:52:03,407 - SauceLab -INFO - Click one Logout button
+2024-11-29 18:52:04,701 - SauceLab -INFO - ----------Validating Problem UserName and "Valid" Password -----------
+2024-11-29 18:52:04,702 - SauceLab -INFO - Enter Problem UserName
+2024-11-29 18:52:04,857 - SauceLab -INFO - Enter "Valid" Password
+2024-11-29 18:52:05,007 - SauceLab -INFO - Click Login Button
+2024-11-29 18:52:05,205 - SauceLab -INFO - Add to cart 2 Items
+2024-11-29 18:52:05,417 - SauceLab -INFO - Remove all Items
+2024-11-29 18:52:21,051 - SauceLab -INFO - Click on Hamburger
+2024-11-29 18:52:21,297 - SauceLab -INFO - Click one Logout button
